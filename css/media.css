@@ -1,0 +1,94 @@
+@media only screen and (max-width:1024px) and (min-width:768px){
+    .tabing_block ul{
+        display: flex;
+        overflow: scroll;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    .tabing_block ul li{
+        margin: 0px 10px;
+    }
+    .tab-links li a{
+        width: max-content;
+    }
+    .tabing_block {
+        padding: 10px 0px 0px;
+    }
+    .view_section{
+        min-width: 180px;
+    }
+    .company_set{
+        min-width: 160px;
+      }
+      .datewise_section{
+        min-width: 200px;
+      }
+      .tab_content_heading {
+        margin: 20px 0px 20px 0px !important;
+    }
+    .tab_content_block{
+        margin: 10px 0px;
+    }
+}
+
+
+@media only screen and (max-width:767px) and (min-width:320px){
+    .bg_section{
+        padding: 50px 8px;
+    }
+    .main_login_section{
+        margin-top: 20px;
+    }
+    .main_login_section h2{
+        font-size: 17px;
+    }
+    .forget_block h3{
+        font-size: 17px;
+    }
+    .tabing_block ul{
+        display: flex;
+        overflow: scroll;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    .tabing_block ul li{
+        margin: 0px 10px;
+    }
+    .tab-links li a{
+        width: max-content;
+    }
+    .tabing_block{
+        padding: 15px 0px 10px;
+    }
+    .tab_content_heading{
+        margin-top:25px !important;
+    }
+    .tab_content_heading h2{
+        font-size: 17px;
+    }
+    .set_width{
+        min-width: 150px;
+    }
+    .balanceing_block h2{
+        font-size: 18px;
+    }
+    .view_section{
+        min-width: 180px;
+    }
+    .company_set{
+        min-width: 160px;
+      }
+      .datewise_section{
+        min-width: 200px;
+      }
+      .tab_content_block{
+        margin: 20px 0px;
+      }
+      .tab-content{
+        padding: 0px;
+      }
+      .tab_balance_bloack select{
+        appearance:auto !important;
+        background-image: none;
+      }
+}

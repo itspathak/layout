@@ -1,0 +1,230 @@
+*{
+    box-sizing:border-box
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f3fb;
+}
+.bg_section{
+  
+    padding: 50px;
+}
+.main_login_section{
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #fff;
+}
+.sing_up_img{
+    width: 100%;
+    position: sticky;
+    top: 20px;
+}
+.sing_up_img img{
+    max-width: 100%;
+}
+.main_login_section h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.main_login_section p{
+    color:#717171;
+    font-weight: 400;
+}
+.main_input_section{
+    position: relative;
+}
+.main_input_section input ,select{
+    width: 100%;
+    border: 1px solid #B7BCCA;
+    border-radius: 10px;
+    padding: 8px 10px;
+    outline: none;
+    margin-bottom: 15px;
+    appearance: none;
+   
+}
+.main_input_section select{
+    width: 100%;
+    border: 1px solid #B7BCCA;
+    border-radius: 10px;
+    padding: 8px 10px;
+    outline: none;
+    margin-bottom: 15px;
+    background-image: url('../images/dropd-won.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px; /* adjust as needed */
+}
+
+.main_input_section label{
+    font-weight:500;
+}
+.main_input_section label span{
+    color: #FF4646;
+}
+.forget_block{
+    width: 100%;
+    text-align: center;
+}
+.forget_block h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.login_btn{
+    width: 100%;
+    background-color: #21A7E2;
+    color: #fff;
+    margin: 10px 0px;
+    padding: 13px;
+    border-radius: 10px;
+}
+.login_btn:hover{
+    color: #fff;
+}
+.crated_account{
+text-align: center;
+margin: 20px 0px 5px;
+}
+.crated_account h4{
+    font-size: 16px;
+}
+.crated_account h4 span{
+    color: #21A7E2;
+}
+.toggle-password {
+    position: absolute;
+    right: 0;
+    bottom:28px;
+    right: 15px;
+    color: gray;
+}
+.heading_section{
+    margin: 15px 0px;
+}
+  .tabing_block{
+    background-color: #fff;
+    padding: 30px 0px;
+    border-radius: 11px;
+  }
+  
+  .tab-links {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .tab-links li a {
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+  }
+  .tabing_block ul li a{
+    color: #717579;
+  }
+  .tab-links li{
+    padding:4px;
+    margin: 10px 30px;
+  }
+
+  
+  .tab-content {
+    padding: 10px;
+    /* background-color:#fff !important; */
+    
+  }
+  
+  .tab {
+    display: none;
+   
+  }
+  
+  .tab.active_tabs {
+    display: block;
+  }
+  .active_add{
+    background-color: #21A7E2;
+    border-radius: 6px;
+   
+  }
+  .active_add a{
+    color: #fff !important;
+  }
+  .tab_content_block{
+    background-color: #fff;
+    padding:20px;
+    border-radius: 11px;
+  }
+  .tab_content_block h3{
+    font-size: 20px;
+    font-weight:600;
+  }
+  .tab_content_block p {
+    color: #707070;
+  } 
+  .tab_content_heading{
+    margin: 25px 0px 10px;
+  }
+  .tab_content_heading h2{
+    font-size:19px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .order_listing_block{
+    background-color: #fff;
+    border-radius: 11px;
+    /* overflow: scroll; */
+  }
+  .order_listing_block table thead th{
+    border-bottom:unset
+  }
+  .order_listing_block table thead tr th{
+    border-top: unset;
+    font-size: 15px;
+    color: #1D1B23;
+    /* text-align: center; */
+  }
+  .order_listing_block table tbody td{
+    font-size: 14px;
+    vertical-align: middle;
+    /* text-align: center; */
+
+  }
+  .completed_btn{
+    border: 2px solid #09BD3C;
+    border-radius: 20px;
+    padding: 8px 14px;
+    background: #fff;
+    color:#09BD3C;
+    font-weight: 700;
+  }
+  .tab_balance_bloack select{
+    width: 100%;
+    border: 1px solid #B7BCCA;
+    border-radius: 10px;
+    padding: 12px 21px;
+    outline: none;
+    margin-bottom: 15px;
+    background-image: url('../images/balance_drop_select.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    padding-right: 20px; /* adjust as needed */
+  }
+  .balanceing_block{
+
+  }
+  .balanceing_block h2{
+    color: #063876;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .balancing_list{
+    margin: 30px 0px;
+  }
+  /* .balancing_list .order_listing_block{
+    overflow:hidden ;
+  }  */
